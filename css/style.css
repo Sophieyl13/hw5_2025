@@ -169,7 +169,7 @@ a :visited{
     /* Edit the pricing class so that the elements align along the bottom.  As long as it aligns along the bottom we don't care if the cards aren't the same height. */
     .pricing{
         display: flex;
-        /* flex-wrap: wrap; */
+        flex-wrap: nowrap;
         /* flex-direction: row; */
         justify-content: center;
         align-items: flex-end;
